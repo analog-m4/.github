@@ -35,9 +35,17 @@ This application has been designed to expose backend endpoints for our frontend 
 [Backend Code Repository](https://github.com/analog-m4/analog_be)
 
 ## Preview
-<img width="750" alt="Screenshot 2023-12-10 at 00 34 59" src="https://github.com/analog-m4/.github/assets/126308696/e9177493-fb3f-4e03-8c34-ae4b38f3ca11">
-<img width="750" alt="Screenshot 2023-12-10 at 00 38 21" src="https://github.com/analog-m4/.github/assets/126308696/57c32404-28b8-4a25-b164-028600376730">
-<img width="750" alt="Screenshot 2023-12-10 at 00 46 08" src="https://github.com/analog-m4/.github/assets/126308696/3918a39d-b024-4f67-ba3e-8746d579add5">
+<img width="650" alt="Screenshot 2023-12-10 at 00 34 59" src="https://github.com/analog-m4/.github/assets/126308696/e9177493-fb3f-4e03-8c34-ae4b38f3ca11">
+
+<details>
+  
+<summary>
+More Images
+</summary> 
+<img width="650" alt="Screenshot 2023-12-10 at 00 38 21" src="https://github.com/analog-m4/.github/assets/126308696/57c32404-28b8-4a25-b164-028600376730">
+<img width="650" alt="Screenshot 2023-12-10 at 00 46 08" src="https://github.com/analog-m4/.github/assets/126308696/3918a39d-b024-4f67-ba3e-8746d579add5">
+</details>
+
 
 
 ## Our Applications:
