@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="400" alt="Screenshot 2023-12-10 at 00 24 43" src="https://github.com/analog-m4/.github/assets/126308696/4da02fb5-952b-4c79-9621-2f06638a8d18">
+  <img width="350" alt="Screenshot 2023-12-10 at 00 24 43" src="https://github.com/analog-m4/.github/assets/126308696/4da02fb5-952b-4c79-9621-2f06638a8d18">
   
 ## [Deployed Link](https://analog-fe.vercel.app/)
 
