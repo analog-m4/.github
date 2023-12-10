@@ -82,13 +82,10 @@ More Images
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ## Installation
-1. Fork and clone this repository
-2. `cd` into the root directiory
-3. `bundle install`
-4. `rails db:{drop,create,migrate}`
-5. Run the test suite with `bundle exec rspec`
-6. Start the local server by running `rails s`
-7. Visit the app on `localhost:3000` in your web browser
+See the respective repositories for instructions
+[Frontend Code Repository](https://github.com/analog-m4/analog_fe)
+
+[Backend Code Repository](https://github.com/analog-m4/analog_be)
 
 ## Database Schema
 
