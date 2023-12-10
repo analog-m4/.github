@@ -83,9 +83,9 @@ More Images
 
 ## Installation
 See the respective repositories for instructions
-[Frontend Code Repository](https://github.com/analog-m4/analog_fe)
 
-[Backend Code Repository](https://github.com/analog-m4/analog_be)
+- [Frontend Code Repository](https://github.com/analog-m4/analog_fe)
+- [Backend Code Repository](https://github.com/analog-m4/analog_be)
 
 ## Database Schema
 
