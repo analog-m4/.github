@@ -11,7 +11,7 @@
 [Application Details](#application-details) |
 [Preview](#preview) |
 [Technologies](#technologies) |
-[installation](#installation) |
+[Installation](#installation) |
 [Database Schema](#database-schema) |
 [Endpoints](#endpoints) |
 [Contributors](#contributors) 
