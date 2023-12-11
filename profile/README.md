@@ -10,10 +10,10 @@
 [Abstract](#abstract) |
 [Application Details](#application-details) |
 [Preview](#preview) |
-[Technologies](#technologies) |
-[Installation](#installation) |
 [Database Schema](#database-schema) |
 [Endpoints](#endpoints) |
+[Technologies](#technologies) |
+[Installation](#installation) |
 [Contributors](#contributors) 
 
 ## Abstract
@@ -44,7 +44,84 @@ More Images
 <img width="650" alt="Screenshot 2023-12-10 at 00 46 08" src="https://github.com/analog-m4/.github/assets/126308696/3918a39d-b024-4f67-ba3e-8746d579add5">
 </details>
 
+## Database Schema
 
+```
+ create_table "projects", force: :cascade do |t|
+    t.string "title"
+    t.string "description"
+    t.string "color"
+    t.integer "status", default: 0
+    t.date "deadline"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_projects_on_user_id"
+  end
+
+  create_table "tasks", force: :cascade do |t|
+    t.string "title"
+    t.string "description"
+    t.integer "priority"
+    t.integer "status", default: 0
+    t.bigint "project_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["project_id"], name: "index_tasks_on_project_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "projects", "users"
+  add_foreign_key "tasks", "projects"
+```
+
+## Endpoints
+
+<details close>
+
+### GET a User's Dashboard
+
+
+```http
+GET /api/v1/users/:id/dashboard
+```
+
+<details close>
+<summary>  Details </summary><br>
+This endpoint returns a user's dashboard, which includes all of 
+<br><br>
+    
+Parameters: <br>
+```
+None
+```
+
+| Code | Description |
+| :--- | :--- |
+| 200 | `OK` |
+
+Example Value:
+
+```json
+
+{
+    "data": {
+        
+}
+
+```
+
+</details>
+
+---
+
+### GET all Tasks
 
 ## Our Applications:
 - Backend: [Heroku](https://analog-be-18680af1ea7c.herokuapp.com/)
@@ -84,14 +161,6 @@ See the respective repositories for instructions
 
 - [Frontend Code Repository](https://github.com/analog-m4/analog_fe)
 - [Backend Code Repository](https://github.com/analog-m4/analog_be)
-
-## Database Schema
-
-
-
-## Endpoints
-
-
 
 ## Contributors
 
