@@ -17,7 +17,7 @@
 
 ## Abstract
 
-Analog is the ultimate to-do list application.  With this application, users can easily manage tasks, organize projects, and write notes.  With newly implemented features such as a whiteboard to plan in real-time and file uploads to utilize external resources, it will now be easier than ever to gather your thoughts and create the perfect srategy for your personal ventures!
+Analog is the ultimate to-do list application.  With this application, users can easily manage tasks, organize projects, and write notes.  With newly implemented features such as a whiteboard to plan in real-time and file uploads to utilize external resources, it will now be easier than ever to gather your thoughts and create the perfect strategy for your personal ventures!
 
 This project served as our group's capstone, fulfilling the graduation requirements of Turing School of Software and Design. For further information on Capstone requirements, please visit: [Capstone Project](https://mod4.turing.edu/projects/capstone/)
 
