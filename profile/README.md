@@ -18,21 +18,19 @@
 
 ## Abstract
 
-INSERT PITCH HERE
-INCLUDE: 
-- File upload services
-- Whiteboard and Drawing Features
-- Project and task management
+Analog is the ultimate to-do list application.  With this application, users can easily manage tasks, organize projects, and write notes.  With newly implemented features such as a whiteboard to plan in real-time and file uploads to utilize external resources, it will now be easier than ever to gather your thoughts and create the perfect srategy for your personal ventures!
 
 This project served as our group's capstone, fulfilling the graduation requirements of Turing School of Software and Design. For further information on Capstone requirements, please visit: [Capstone Project](https://mod4.turing.edu/projects/capstone/)
 
 ## Application Details
 
-This application has been designed to expose backend endpoints for our frontend application to consume. This project utilizes service-oriented architecture, enabling the frontend to consume both this API and our AWS S3-specific API.
+This project utilizes service-oriented architecture, enabling the frontend to consume both the application's main database API and the AWS S3-specific API.  This design choice was created for easier scaliability, easier maintanence needs, and to properly utilize the different skillsets and tech stacks that each group member excels at.
 
 [Frontend Code Repository](https://github.com/analog-m4/analog_fe)
 
 [Backend Code Repository](https://github.com/analog-m4/analog_be)
+
+[AWS S3 Repository](https://github.com/analog-m4/s3_direct_upload_microservice)
 
 ## Preview
 <img width="650" alt="Screenshot 2023-12-10 at 00 34 59" src="https://github.com/analog-m4/.github/assets/126308696/e9177493-fb3f-4e03-8c34-ae4b38f3ca11">
