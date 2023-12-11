@@ -85,43 +85,91 @@ More Images
 
 <details close>
 
-### GET a User's Dashboard
+### Display a User's Dashboard
 
-
-```http
+```
 GET /api/v1/users/:id/dashboard
 ```
-
 <details close>
-<summary>  Details </summary><br>
-This endpoint returns a user's dashboard, which includes all of 
-<br><br>
-    
-Parameters: <br>
-```
-None
-```
-
-| Code | Description |
-| :--- | :--- |
-| 200 | `OK` |
-
 Example Value:
 
-```json
-
+```
 {
     "data": {
-        
+        "id": "1",
+        "type": "dashboard",
+        "attributes": {
+            "username": "Test User 1",
+            "email": "user1@test.com",
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Project 1",
+                    "description": "This is the first project",
+                    "color": "123xyz",
+                    "status": "assigned",
+                    "deadline": "2023-12-12",
+                    "tasks": [
+                        {
+                            "id": 1,
+                            "title": "Task 1",
+                            "description": "This is the first task",
+                            "priority": "low",
+                            "status": "backlog",
+                            "project_id": 1
+                        },
+                        {
+                            "id": 2,
+                            "title": "Task 2",
+                            "description": "This is the second task",
+                            "priority": "medium",
+                            "status": "doing",
+                            "project_id": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Project 2",
+                    "description": "This is the second project",
+                    "color": "456abc",
+                    "status": "assigned",
+                    "deadline": "2023-11-24",
+                    "tasks": [
+                        {
+                            "id": 3,
+                            "title": "Task 3",
+                            "description": "This is the third task",
+                            "priority": "high",
+                            "status": "backlog",
+                            "project_id": 2
+                        },
+                        {
+                            "id": 4,
+                            "title": "Task 4",
+                            "description": "This is the fourth task",
+                            "priority": "critical",
+                            "status": "done",
+                            "project_id": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }
-
 ```
 
 </details>
 
 ---
 
-### GET all Tasks
+### Creates a new project
+
+
+
+
+</details>
 
 ## Our Applications:
 - Backend: [Heroku](https://analog-be-18680af1ea7c.herokuapp.com/)
