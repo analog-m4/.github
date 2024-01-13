@@ -42,8 +42,25 @@ See the respective repositories for thier installation instructions:
 More Images
 </summary> 
 <img width="650" alt="Screenshot 2023-12-10 at 00 38 21" src="https://github.com/analog-m4/.github/assets/126308696/57c32404-28b8-4a25-b164-028600376730">
+
+Analog 1.0
+
 <img width="650" alt="Screenshot 2023-12-10 at 00 46 08" src="https://github.com/analog-m4/.github/assets/126308696/3918a39d-b024-4f67-ba3e-8746d579add5">
+
+Analog 1.0 Whiteboard
+
+<img width="650" alt="Screenshot 2023-12-10 at 00 46 08" src="https://github.com/analog-m4/.github/assets/126308696/a677af76-c706-4c89-97fa-882e667aef50">
+
+Analog 2.0
+
+<img width="650" alt="Screenshot 2023-12-10 at 00 46 08" src="https://github.com/analog-m4/.github/assets/126308696/c091ead2-4e35-4fbd-9e65-2aad6d1c9529">
+
+Analog 2.0 Dark Mode
+
 </details>
+
+## Videos
+![Jan 12 2024: Eval Video](https://www.youtube.com/watch?v=85pB4Ev7b5o)
 
 ## Technologies
 - React
